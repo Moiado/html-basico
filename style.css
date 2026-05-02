@@ -1,1 +1,47 @@
-
+body{
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+button{
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+button:hover{
+  color: red;
+}
+.remover{
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+  margin-left: 10px;
+}
+.remover:hover{
+  color: indianred;
+}
+.container{
+  background: #333;
+  margin-block: 50px;
+  padding: 10px;
+  border-radius: 8px;
+}
+input{
+  background: #666;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+input:focus{
+  outline: 2px solid #aaa;
+}
+li{
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
